@@ -1,6 +1,7 @@
 # Adaptive Deep Learning for Slide-Level Multilabel Biomarker Prediction in Breast Cancer WSI Images via Misprediction Risk Analysis
 
-This project represents the code of our work titled **"Adaptive Deep Learning for Slide-Level Multilabel Biomarker Prediction in Breast Cancer WSI Images via Misprediction Risk Analysis"**. This code can detect mispredictions for any multilabel task trained using any model. In our work, we chose multilabel biomarker prediction for breast cancer as the task. Our general experiments use ResNet50 as the baseline model, which can be replaced by any DNN model, including Transformers and Graph Neural Networks.
+This project contains the code for our work titled **"Adaptive Deep Learning for Slide-Level Multilabel Biomarker Prediction in Breast Cancer WSI Images via Misprediction Risk Analysis."** This code enables the detection of mispredictions in any multilabel task trained using any model. In our work, we focus on multilabel biomarker prediction for breast cancer. Our general experiments use ResNet50 as the baseline model, which can be replaced with any deep neural network (DNN) model, including Transformers and Graph Neural Networks.
+
 
 ## Overall Framework
 The overall framework of our work is shown below:

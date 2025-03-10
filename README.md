@@ -44,10 +44,8 @@ Install the required packages listed in `Requirements.txt`.
 
 ## Usage
 ```bash
-StartCodebox
 PreTraining
 PrepareRiskData
 OneSidedRules
 Common
 python Main.py 123
-EndCodeBox

@@ -1,0 +1,27 @@
+### 2025-03-09 10:49:08 ###- # of train data: 11340
+- class size of train data: Counter({0: 9450, 1: 1890}), impurity of train data: 0.2777777777777777
+- max_tree_depth: 1
+- match_tree_split_threshold: 0.1
+- unmatch_tree_split_threshold: 0.1
+- match_rule_threshold: 0.1
+- unmatch_rule_threshold: 0.1
+- (Before cleaning) # of rules: 14, Classes: Counter({'U': 13, 'M': 1})
+- (After cleaning) # of rules: 13, Classes: Counter({'U': 12, 'M': 1})
+
+--- Match rules ---
+50_xc_cosine<=0.0002 : M|0.0|1.0|0.0
+
+--- Unmatch rules ---
+50_xc_cosine>0.5073 : U|1.0|0.0|0.0
+50_xc_mahalanobis<=0.0527 : U|1.0|0.0|0.0
+50_xc_hamming>0.8333 : U|1.0|0.0|0.0
+50_x4_cosine>0.4499 : U|1.0|0.0|0.0
+50_x4_mahalanobis>72.5071 : U|1.0|0.0|0.0
+50_x4_hamming>0.8333 : U|1.0|0.0|0.0
+50_bay_cosine>0.2855 : U|0.050182048440715527|0.0009498179515592845|0.03646157827641398
+50_bay_mahalanobis>167.5263 : U|1.0|0.0|0.0
+50_bay_hamming>0.8333 : U|1.0|0.0|0.0
+50_moe_cosine>0.0316 : U|0.0009999508472701803|4.9152729819732364e-05|0.08931400311690112
+50_moe_mahalanobis>148.47 : U|1.0|0.0|0.0
+50_moe_hamming>0.8333 : U|1.0|0.0|0.0
+### The End (2025-03-09 10:49:08). ###
